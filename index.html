@@ -9,20 +9,55 @@
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <div class="main-container">
-        <h1>Crea persone</h1>
-        <form id="form-container"action="index.html">
-            <input id="input-nome" type="text" placeholder="Nome persona" required ><br>
-            <input id="input-cognome" type="text" placeholder="Cognome persona" required ><br>
-            <input id="input-anno" type="text" placeholder="Anno di nascita" required ><br>
-            <input id="input-luogo" type="text" placeholder="Luogo di Nascita" required ><br>
-            <input id="input-residenza" type="text" placeholder="Residenza" required >
-            <input id="button-submit" type="submit">
-        </form>
+    <div class="container">
+        <div class="container-pastore">
+            <h1>Pastore</h1>
+            <hr>
+            <form id="form-container-pastore"action="index.html">
+                <p>Nome pastore:</p>
+                <input id="input-nome-pastore" type="text" placeholder="Nome pastore" required >
+                <p>Cognome pastore:</p>
+                <input id="input-cognome-pastore" type="text" placeholder="Cognome pastore" required >
+                <p>Portafogli:</p>
+                <input id="input-portafogli-pastore" type="text" placeholder="Portafogli" required >
+                <p>Quantita' pecore:</p>
+                <input id="input-pecore" type="text" placeholder="Quantita' pecore" required >
+                <p>Quantita' lana:</p>
+                <input id="input-lana" type="text" placeholder="Quantita' lana" required >
+            </form>
+        </div>
+        <div class="container-magliaio">
+            <h1>Magliaio</h1>
+            <hr>
+            <form id="form-container-magliaio"action="index.html">
+                <p>Nome magliaio:</p>
+                <input id="input-nome-magliaio" type="text" placeholder="Nome magliaio" required >
+                <p>Cognome magliaio:</p>
+                <input id="input-cognome-magliaio" type="text" placeholder="Cognome magliaio" required >
+                <p>Portafogli:</p>
+                <input id="input-portafogli-magliaio" type="text" placeholder="Portafogli" required ><br>
+                <p>Quantita' lana:</p>
+                <input id="input-lana-gomitoli" type="text" placeholder="Kg di lana" required >
+                <p>Quantita' gomitoli:</p>
+                <input id="input-numero-gomitoli" type="text" placeholder="Numero Gomitoli" required >
+                <hr>
+            </form>
+        </div>
     </div>
-    <ul id="persone-varie">
-    
-    </ul>
-    <script src="index.js"></script>
+    <div class="buttons-container">
+        <div class="pastore-actions">
+            <button id="btn-compra-pecora">Compra pecora</button><br>
+            <button id="btn-tosa-pecora">Tosa pecora</button><br>
+            <button id="btn-vendi-lana">Vendi lana</button><br>
+        </div>
+        <div class="magliaio-actions">
+            <button id="btn-compra-lana">Compra lana</button><br>
+            <button id="btn-produci-gomitoli">Produci gomitoli</button><br>
+            <button id="btn-vendi-gomitoli">Vendi gomitoli</button><br>
+        </div>
+    </div>
+    <!-- <script src="index.js"></script> -->
+    <script src="edifici.js"></script>
+    <script src="artigiani.js"></script>
 </body>
 </html>
