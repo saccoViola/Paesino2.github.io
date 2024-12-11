@@ -141,7 +141,7 @@ document.addEventListener('DOMContentLoaded', () => {
 
     const pecoraro = new Pastore("Franco", "Verdi", "1965", "Bergamo","via della gentilezza, 20, Frugiate", 100, 2, 0, 15,5,2);
 
-    const magliaio1 = new Magliaio("Carlo", "Rossi", "1976", "Oggiono", "via dei matti, 6, Frugiate", 100, 5, 0, 0, 3, 15);
+    const magliaio1 = new Magliaio("Carlo", "Rossi", "1976", "Oggiono", "via dei matti, 6, Frugiate", 100, 5, 0, 0, 6, 8);
 
     //prendo tag html riguardanti il pastore e li rendo interattivi
 
@@ -212,6 +212,9 @@ document.addEventListener('DOMContentLoaded', () => {
         magliaio1.compraLana(1);
         lanaPerGomitoli.value = magliaio1.quantitaLana;
         portafogliMagliaio.value = magliaio1.portafogli;
+        pecoraro.vendiLana(1);
+        chiliLana.value = pecoraro.quantitaLana;
+        portafogliPastore.value = pecoraro.portafogli;
     })
 
     btnProduciGomitoli.addEventListener("click", ()=>{
