@@ -1,17 +1,10 @@
-C'è un paesino che si chiama Frugiate in cui vivono X persone, ognuna con una casa e un negozio. 
+In this little town we have a shepherd and a knitter interacting with each other to buy and sell their products. 
+Unfortunally at the moment the knitter can only buy from the shepherd and he doesn't have someone to sell his stuff yet. 
+Maybe in the future he will! 
 
-Classe Persona{
-	constructor(luogo di nascita, 
+The graphics need to be fixed, I was focusing more on the dynamicity and in working with objects
 
-Classe Edificio{
-	constructor()
 
-Classe Casa exends Edificio{
-	constructor(luogo)
-
-Classe Negozio exends Edificio{
-
-CREO UNA PERSONA E UNA CASA E UN NEGOZIO, ENTRAMBI DI PROPRIETà DI QUELLA PERSONA
 	
 
 
